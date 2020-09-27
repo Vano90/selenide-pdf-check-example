@@ -1,0 +1,1 @@
+# selenide-pdf-check-example
