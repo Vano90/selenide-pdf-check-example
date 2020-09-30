@@ -7,8 +7,20 @@
     <groupId>org.example</groupId>
     <artifactId>selenide-pdf-check-example</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
- <dependencies>
+    <dependencies>
      <!--Selenide-->
      <dependency>
          <groupId>com.codeborne</groupId>
@@ -38,8 +50,14 @@
          <artifactId>pdfbox</artifactId>
          <version>2.0.21</version>
      </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
 
- </dependencies>
+    </dependencies>
 
 
 
