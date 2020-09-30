@@ -6,8 +6,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.*;
-import static vano.com.PDFUtils.checkPDF;
-import static vano.com.PDFUtils.waitFileDownload;
+import static com.vano.PDFUtils.checkPDF;
+import static com.vano.PDFUtils.waitFileDownload;
 
 public class PDFTest {
 
