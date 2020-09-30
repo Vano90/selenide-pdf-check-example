@@ -24,7 +24,6 @@ public class PDFTest {
     @Test
     public void pdfTest(){
          buttonDownload.click();
-         //sleep(3000);
          waitFileDownload();
          checkPDF();
     }
